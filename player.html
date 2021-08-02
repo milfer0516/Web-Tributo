@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Punch Man</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/player.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="img/logo.png" alt="logo">
+            <a class="menuNormal"  href="index.html">Inicio</a>
+            <a class="menuNormal"  href="index.html #text2">Temporada 1</a>
+            <a class="menuNormal"  href="index.html #text3">Temporada 2</a>
+            <a class="menuNormal"  href="index.html #text4">Datos Interesantes</a>
+            <div class="menuDown">
+                <img src="img/menu.png" alt="Menu">
+                <ul>
+                    <a href="index.html">Inicio</a>
+                    <a href="#btnChapters">Capitulos</a>
+                    <a href="#comment">Comentarios</a>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <p id="titleChapter" class="chapter">Temporada 1 - Cap 1:</p>
+        <div class="container">      
+            <div class="player">
+                <iframe id="iframe" width="819" height="464" src="https://www.youtube.com/embed/yM2zlTE-QVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <div class="buttons"> -->
+                    <img src="img/atras.png" alt="Atras">
+                    <img id="btnChapters" src="img/capitulos.png" alt="Capitulos">               
+                    <img src="img/adelante.png" alt="Adelante">
+                <!-- </div> -->
+                <button>Decargar</button>
+            </div>
+            <div class="comments">
+                <form action="#">
+                    <label id="comment">Comentarios:</label> 
+                    <textarea name="comment" id="textCom" cols="30" rows="10"></textarea>
+                    <input id="botton" type="submit">
+                </form>
+                <div id="divCom" class="divCom">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, molestias? Distinctio sunt est accusantium deleniti sequi officia nihil! Voluptas ratione fugit vero officiis mollitia itaque officia nisi, odio commodi tenetur.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2021 CristianBuenaventura</p>
+            <img src="img/facebook.png" alt="Facebook">
+            <img src="img/github.png" alt="GitHub">
+            <img src="img/linkedin.png" alt="LinkedIn">
+        </div>
+    </footer>
+</body>
+    <script src="app.js"></script> 
+    <script src="info.js"></script>
+</html>
